@@ -1,18 +1,11 @@
-# VladVSS
-
-Sirbu Vlad-Stefan
-322CB
-
 **A short description of the classes:**
 
 ## Tema1
-
 - the command is checked if all the arguments are given.
 - create all the files if the first argument is correct.
 - check the authentication and the login.
 
 ## User
-
 - here are handled all the matters that involve the work with a user.
 - checks if the username and password were provided.
 - add the ID, username and password of the user to _"users.txt"_.
@@ -20,23 +13,19 @@ Sirbu Vlad-Stefan
 - a method get a User object.
 
 ## Question
-
 - here are handled all the matters that involve the work with a question.
 - check if answers in the command are valid and adds them to the static answers array.
 - check the rest of the given parameters and add the question data and answers to the _"questions.txt"_.
 
 ## Quiz
-
 - here are handled all the matters that involve the work with a quiz
 - check if the arguments given for the quiz and the question IDs are valid, if so add the quiz to the file
 - in order to delete a quiz, create a copy of the _"quizzes.txt"_ except the line of the quiz with the given ID and than rename the copy to _"quizzes.txt"_
 
 ## GetDetails
-
 - methods to print the details of a Quiz, a Question or all submissions of a user
 
 ## Submit
-
 - handles the submission checking if the arguments given are correct and by calculating the score
 - the method of calculating is:
   - create an int array of 50 columns
@@ -49,7 +38,6 @@ Sirbu Vlad-Stefan
 - there is a method to return the score if a user has submitted a quiz
 
 ## Files
-
 - handles the creation and delete of files and the reset of all static variables
 
 _Cases that have been treated and are not in the requirement of the problem:_
