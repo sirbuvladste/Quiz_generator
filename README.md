@@ -1,3 +1,7 @@
+### Simple quiz generator. ###
+Users of this program will log into the application on any system call (for simplicity) other than user creation. Users logged into the system will be able to: create questions (with only one correct answer, or with several correct answers), create quizzes based on previously added questions, and will be able to answer others' quizzes, only once.
+Any question is characterized by an identifier, a text and a list of possible answers. An answer is characterized by an identifier, a text, and its truth value (False/True).
+
 **A short description of the classes:**
 
 ## Tema1
